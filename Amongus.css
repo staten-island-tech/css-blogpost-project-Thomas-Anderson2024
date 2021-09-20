@@ -1,4 +1,17 @@
+@font-face {
+  font-family: "Spartan", sans-serif;
+  src: url(https://fonts.google.com/specimen/Spartan);
+}
+html {
+  font-family: "Spartan", sans-serif;
+}
 h1 {
   display: flex;
   justify-content: center;
+}
+.inline-block-element {
+  display: inline-block;
+  width: 2000px;
+  height: auto;
+  color: aquamarine;
 }
