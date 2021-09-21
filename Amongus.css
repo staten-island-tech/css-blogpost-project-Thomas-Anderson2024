@@ -4,14 +4,39 @@
 }
 html {
   font-family: "Spartan", sans-serif;
+  background-color: rgb(45, 48, 71);
 }
 h1 {
   display: flex;
   justify-content: center;
 }
-.inline-block-element {
-  display: inline-block;
-  width: 2000px;
-  height: auto;
+.header {
   color: aquamarine;
+}
+.post1 {
+  display: flex;
+  color: #ffc857;
+  font-size: 50px;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: 19647e;
+}
+.post2 {
+  display: flex;
+  color: #ffc857;
+  font-size: 50px;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: 19647e;
+}
+.post3 {
+  display: flex;
+  color: #ffc857;
+  font-size: 50px;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: 19647e;
 }
