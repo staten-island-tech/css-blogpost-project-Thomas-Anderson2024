@@ -10,33 +10,37 @@ h1 {
   display: flex;
   justify-content: center;
 }
+div {
+  margin: auto;
+  padding: 30px;
+}
 .header {
   color: aquamarine;
 }
 .post1 {
-  display: flex;
   color: #ffc857;
   font-size: 50px;
-  margin: 100px;
   padding: 50px;
   border-radius: 20px;
   background-color: 19647e;
+  width: 200px;
+  height: 200px;
 }
 .post2 {
-  display: flex;
   color: #ffc857;
   font-size: 50px;
-  margin: 100px;
   padding: 50px;
   border-radius: 20px;
   background-color: 19647e;
+  width: 200px;
+  height: 200px;
 }
 .post3 {
-  display: flex;
   color: #ffc857;
   font-size: 50px;
-  margin: 100px;
   padding: 50px;
   border-radius: 20px;
   background-color: 19647e;
+  width: 200px;
+  height: 200px;
 }
