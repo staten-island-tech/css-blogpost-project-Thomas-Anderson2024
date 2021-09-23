@@ -10,43 +10,40 @@ h1 {
   display: flex;
   justify-content: center;
 }
-div {
-  margin: auto;
-  padding: 30px;
-}
-.header {
-  color: aquamarine;
-}
-.post1 {
-  color: #ffc857;
-  font-size: 50px;
-  padding: 50px;
-  border-radius: 20px;
-  background-color: 19647e;
-  width: 200px;
-  height: 200px;
-}
-.post2 {
-  color: #ffc857;
-  font-size: 50px;
-  padding: 50px;
-  border-radius: 20px;
-  background-color: 19647e;
-  width: 200px;
-  height: 200px;
-}
-.post3 {
-  color: #ffc857;
-  font-size: 50px;
-  padding: 50px;
-  border-radius: 20px;
-  background-color: 19647e;
-  width: 200px;
-  height: 200px;
-}
 main {
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+}
+div {
+  margin: 100px;
+  padding: 30px;
+}
+.header {
+  color: #ffc857;
+}
+.post {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: 19647e;
+  width: 400px;
+  height: 300px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #ffc857;
+}
+.PostHeader {
+  align-self: flex-start;
+  font-size: 100%;
+  font-kerning: auto;
+  font-weight: bold;
+  color: #ffc857;
+}
+img {
+  max-width: 100%;
+  border-radius: 20px;
 }
