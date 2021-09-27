@@ -21,7 +21,7 @@ main {
   align-items: center;
   margin-top: -50px;
 }
-.PostHeader {
+.postHeader {
   align-self: flex-start;
   font-size: 100%;
   font-weight: bold;
